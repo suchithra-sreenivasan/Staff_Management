@@ -1,6 +1,7 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
+import logo from '../assets/logo.png'
 
 function Header() {
   return (
@@ -9,7 +10,7 @@ function Header() {
         <Navbar.Brand href="/" className='d-flex align-items-center'>
           <img
             alt=""
-            src="src/images/logo.png"
+            src={logo}
             width="50"
             height="50"
             className="d-inline-block align-top"
